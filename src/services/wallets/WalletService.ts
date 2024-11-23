@@ -4,7 +4,7 @@ import { TonKeeperWalletAdapter } from "./adapters/TonKeeperWalletAdapter";
 import { TonWalletWalletAdapter } from "./adapters/TonWalletAdapter";
 import { WalletAdapter, TransactionRequest, Wallet, Adapters } from "./types";
 
-const IS_TESTNET = false;
+const IS_TESTNET = true;
 
 export class WalletService {
     private readonly adapters: Map<string, WalletAdapter<any>> = new Map();
