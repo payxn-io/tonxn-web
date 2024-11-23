@@ -93,7 +93,7 @@ function Menu({ open, hide }: Props) {
       <Box className={classes.drawer}>
         <Box className={classes.drawerTop}>
           <LogoWithText />
-          {isMobileTelegram && <SelectLanguage />}
+          {/* {isMobileTelegram && <SelectLanguage />} */}
           <IconButton
             onClick={onCloseMenuClick}
             size="large"

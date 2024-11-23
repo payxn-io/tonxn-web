@@ -1,12 +1,12 @@
 {
   "translation": {
-    "connect-wallet": "Connect wallet",
+    "connect-wallet": "Earn ",
     "buy": "Buy {{token}}",
     "sell": "Sell {{token}}",
     "insufficient-funds": "Insufficient funds",
     "trade": "Borrow",
     "balance": "Balance",
-    "jettons-available": "Jettons available to borrow",
+    "jettons-available": "Borrow",
     "support": "Support",
     "max": "MAX",
     "disconnect": "Disconnect",
@@ -42,7 +42,7 @@
     "remove-ton-liquidity": "Remove TON/{{token}} liquidity",
     "add-liquidity": "Deposit",
     "remove-liquidity": "Withdraw",
-    "select-token-liquidity": "Select a token to manage liquidity",
+    "select-token-liquidity": "Select a token to manage vault",
     "failed-pool-info": "Failed to get Pool info",
     "token-ton": "{{token}} / TON",
     "tokens-locked": "Total Tokens Locked",
