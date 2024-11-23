@@ -42,7 +42,7 @@ const App = () => {
   useEffect(() => {
     (async () => {
       const _client = new TonClient({
-        endpoint: "https://mainnet.tonhubapi.com/jsonRPC",
+        endpoint: "https://testnet.toncenter.com/api/v2/jsonRPC",
       });
       setClienT(_client)
     })();
