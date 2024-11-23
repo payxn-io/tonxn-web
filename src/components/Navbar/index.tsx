@@ -87,7 +87,8 @@ export const Navbar = observer(() => {
                 {!isTelegramWebApp() && <LogoWithText />}
               </Grid>
 
-              <WalletAddress />
+              {/* <WalletAddress /> */}
+              <TonConnectButton />
             </Grid>
           </StyledWrapper>
         </StyledToolbar>

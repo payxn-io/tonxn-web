@@ -15,6 +15,8 @@ import { TonClient } from 'ton'
 import { setClienT } from 'services/api'
 import {THEME, TonConnectUIProvider} from "@tonconnect/ui-react";
 
+import {TonConnectButton} from "@tonconnect/ui-react";
+
 const StyledAppContainer = styled(Box)({
   display: "flex",
   flexDirection: "column",
@@ -180,12 +182,14 @@ const App = () => {
 
       <StyledAppContainer>
         <Navbar />
+        
         <SelectWallet />
         <StyledRoutesContainer>
           <AppRoutes />
         </StyledRoutesContainer>
       </StyledAppContainer>
-      </TonConnectUIProvider>   
+      </TonConnectUIProvider>  
+       
     </>
   );
 };

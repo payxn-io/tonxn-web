@@ -51,7 +51,7 @@ export const MainNetPoolsRoot: { [key: string]: PoolInfo } = {
         tokenMinter: "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c",
         image: "https://cryptologos.cc/logos/toncoin-ton-logo.png",
         displayName: "TON",
-        color: "#3EAAB1",
+        color: "#4682B4",
         name: "Toncoin",
         decimals: 8,
     },
