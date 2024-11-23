@@ -66,12 +66,12 @@ The application will be running on http://localhost:3000.
 
 ###Usage
 Once the project is running locally, users can access the interface to:
-<br />
-Connect to the TON blockchain: Click the “Connect Wallet” button to link your wallet to the platform.<br />
-Deposit Collateral: Choose an asset, enter the deposit amount, and submit the transaction.<br />
-Borrow pUSD: After depositing collateral, choose how much pUSD you wish to borrow and submit the transaction.<br />
+
+Connect to the TON blockchain: Click the “Connect Wallet” button to link your wallet to the platform.
+Deposit Collateral: Choose an asset, enter the deposit amount, and submit the transaction.
+Borrow pUSD: After depositing collateral, choose how much pUSD you wish to borrow and submit the transaction.
 Repay Loan: Track your borrowed pUSD and repay it as needed.
-Check Collateral Ratio: View your collateral-to-loan ratio and avoid liquidation.<br />
-View User Dashboard: View all details about your positions, collateral, borrowed pUSD, and more.<br />
+Check Collateral Ratio: View your collateral-to-loan ratio and avoid liquidation.
+View User Dashboard: View all details about your positions, collateral, borrowed pUSD, and more.
 
 
