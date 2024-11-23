@@ -36,9 +36,9 @@ export {
 export const COMING_SOON = "(coming soon)";
 
 export const GITHUB = "https://github.com/payxn-io";
-export const TELEGRAM = "https://t.me/mint_xyz";
+export const TELEGRAM = "https://t.me/tonxn_xyz";
 
-export const SUPPORT = "https://t.me/Mint_xyz_chat";
+export const SUPPORT = "https://t.me/tonxn_xyz_chat";
 
 export const ZERO_ADDRESS = "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c";
 

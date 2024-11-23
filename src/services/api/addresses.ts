@@ -31,8 +31,8 @@ export const MainNetPoolsRoot: { [key: string]: PoolInfo } = {
     "EQC61IQRl0_la95t27xhIpjxZt32vl1QQVF2UgTNuvD18W-4": {
         ammMinter: "EQDnLbES4CER47LYR45Ti0cw4ScvPUJ3HShtH9FbIFGDACkj",
         tokenMinter: "EQC61IQRl0_la95t27xhIpjxZt32vl1QQVF2UgTNuvD18W-4",
-        image: "https://raw.githubusercontent.com/orbit-chain/bridge-token-image/main/ton/usdc.png",
-        displayName: "pUSDC",
+        image: "https://avatars.githubusercontent.com/u/182174645?s=400&u=203e577597e0a3e35f4cef295c122f0a172f86b9&v=4",
+        displayName: "pUSD",
         color: "#3EAAB1",
         name: "Payxn TON USD Coin",
         decimals: 6,

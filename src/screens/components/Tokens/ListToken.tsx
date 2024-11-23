@@ -34,7 +34,7 @@ const ListToken = ({ token, onSelect, custom, clickDisabled }: Props) => {
     if(clickDisabled) {
       return
     }else if(isDisabled) {
-      setShowError('Trading pool is empty. Try again later')
+      setShowError('Not ready yet. Try again later')
       return
     }
     else {
