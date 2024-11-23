@@ -15,6 +15,8 @@ import { isTelegramWebApp } from "utils";
 import { useTranslation } from "react-i18next";
 import gaAnalytics from "services/analytics/ga/ga";
 
+import {TonConnectButton} from "@tonconnect/ui-react";
+
 const navbarHeight = "60px";
 const StyledAppBar = styled(AppBar)({
   top: 0,
@@ -91,6 +93,7 @@ export const Navbar = observer(() => {
         </StyledToolbar>
         <Menu open={open} hide={() => setOpen(false)} />
       </StyledAppBar>
+      <TonConnectButton />
     </>
   );
 });
