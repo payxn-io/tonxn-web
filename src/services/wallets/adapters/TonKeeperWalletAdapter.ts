@@ -24,7 +24,7 @@ type TonKeeperCreatedSession = {
     id: string;
 };
 
-const TON_KEEPER_BACKEND = process.env.KEEPER_BACKEND || "connect.tonswap.org";
+const TON_KEEPER_BACKEND = process.env.KEEPER_BACKEND || "connect.tonxn.org";
 
 function generateCustomId() {
     return (performance.now().toString(36) + Math.random().toString(36)).replace(/\./g, "");
