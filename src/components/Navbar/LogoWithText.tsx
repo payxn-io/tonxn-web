@@ -43,9 +43,10 @@ const LogoWithText = () => {
       onClick={onClick}
       className={classes.logoBox}
     >
-      <img className={classes.logo} src={TonLogo} alt="" />
+      <img className={classes.logo} src="https://avatars.githubusercontent.com/u/182174645?s=400&u=203e577597e0a3e35f4cef295c122f0a172f86b9&v=4" alt="Logo" />
+
       <StyledText>
-        <strong>Ton</strong>Swap
+        <strong>Ton</strong>xn
       </StyledText>
     </Box>
   );

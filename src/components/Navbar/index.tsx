@@ -59,9 +59,9 @@ export const Navbar = observer(() => {
           maxWidth: LAYOUT_MAX_WIDTH,
         }}
       >
-        <Box py={.5} sx={{width: '100%', textAlign: 'center', background: '#E23D5B', color: '#fff'}}>
+        <Box py={.5} sx={{width: '100%', textAlign: 'center', background: 'skyblue', color: '#fff'}}>
           <Typography variant='body1'>
-            TonSwap is ceasing operations. LPs - please remove liquidity ASAP
+            Tonxn is launching soon! Please stay tuned.
           </Typography>
         </Box>
         <StyledToolbar

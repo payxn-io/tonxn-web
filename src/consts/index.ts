@@ -4,7 +4,7 @@ const LOCAL_STORAGE_ADDRESS = "ton_address";
 const LAYOUT_MAX_WIDTH = "1200px";
 const TELEGRAM_WEBAPP_PARAM = "tg";
 const DESTINATION_PATH = "destination_path";
-const APP_NAME = "TonSwap";
+const APP_NAME = "Tonxn";
 const TEST_MODE = "test-mode";
 const TON_WALLET_EXTENSION_URL =
   "https://chrome.google.com/webstore/detail/ton-wallet/nphplpgoakhhjchkkhmiggakijnkhfnd";
@@ -35,14 +35,14 @@ export {
 
 export const COMING_SOON = "(coming soon)";
 
-export const GITHUB = "https://github.com/tonswap";
+export const GITHUB = "https://github.com/payxn-io";
 export const TELEGRAM = "https://t.me/mint_xyz";
 
 export const SUPPORT = "https://t.me/Mint_xyz_chat";
 
 export const ZERO_ADDRESS = "EQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM9c";
 
-export const BETA_TEXT = "TonSwap is in Beta, use at your own risk";
+export const BETA_TEXT = "Tonxn is in Beta, use at your own risk";
 
 export const isDebug = () => getParamsFromUrl("beta") || localStorage["debug"];
 

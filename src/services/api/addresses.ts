@@ -32,9 +32,9 @@ export const MainNetPoolsRoot: { [key: string]: PoolInfo } = {
         ammMinter: "EQDnLbES4CER47LYR45Ti0cw4ScvPUJ3HShtH9FbIFGDACkj",
         tokenMinter: "EQC61IQRl0_la95t27xhIpjxZt32vl1QQVF2UgTNuvD18W-4",
         image: "https://raw.githubusercontent.com/orbit-chain/bridge-token-image/main/ton/usdc.png",
-        displayName: "oUSDC",
+        displayName: "pUSDC",
         color: "#3EAAB1",
-        name: "Orbit Bridge TON USD Coin",
+        name: "Payxn TON USD Coin",
         decimals: 6,
     },
     "EQAW42HutyDem98Be1f27PoXobghh81umTQ-cGgaKVmRLS7-": {
