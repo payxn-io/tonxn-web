@@ -1,46 +1,77 @@
-# Getting Started with Create React App
+# Tonxn Web Front-End Interface
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **Tonxn Web Front-End Interface**, the front-end interface for **Tonxn**—a decentralized stablecoin lending and borrowing platform built on the TON blockchain. With **Tonxn**, users can deposit various assets as collateral (such as TON, DOGS, BTC, ETH, SOL) and borrow **pUSD**, a stablecoin pegged to the USD. The platform allows users to manage their positions, monitor collateral values, and mint or repay stablecoins seamlessly through this web interface.
 
-## Available Scripts
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+- [License](#license)
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
+**Tonxn** leverages the TON blockchain's security and efficiency to offer decentralized lending and borrowing services. Through **Tonxn**, users can:
+- Deposit assets like TON, DOGS, BTC, ETH, SOL as collateral.
+- Borrow **pUSD**, a stablecoin pegged 1:1 to the US Dollar.
+- Easily repay loans and manage positions in a decentralized environment.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This **web front-end interface** provides a simple, responsive platform for interacting with the Tonxn protocol. You can deposit collateral, borrow pUSD, check your collateral ratio, and repay loans with ease.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
+- **Deposit Collateral**: Securely deposit assets (TON, DOGS, BTC, ETH, SOL) into the platform as collateral.
+- **Borrow pUSD**: Borrow pUSD against your collateral, which can be used for various purposes like trading, saving, or paying.
+- **Manage Collateral**: View the collateral value, monitor your assets, and keep track of your loans.
+- **Repay pUSD Loans**: Repay borrowed pUSD at any time, maintaining your collateral ratio.
+- **Collateral Ratio Monitoring**: Keep track of the collateral-to-loan ratio to avoid liquidation.
+- **Stable Interface**: A clean, user-friendly interface optimized for performance.
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
+To run this project locally, you need:
+- **Node.js** (v14 or higher)
+- **npm** or **yarn**
 
-### `npm run build`
+### Key Dependencies:
+- **React.js**: Front-end framework for building the UI.
+- **Web3.js**: To interact with the TON blockchain.
+- **ethers.js**: For Ethereum-based interactions (if applicable).
+- **Redux**: For state management of user positions and balances.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these steps to get the project up and running locally:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/payxn-io/tonxn-web.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+cd tonxn-web
+   ```
+3. Install the dependencies:
+   ```bash
+yarn install
+   ```
+4. Start the local development server:
+   ```bash
+yarn start
+   ```
+The application will be running on http://localhost:3000.
 
-### `npm run eject`
+###Usage
+Once the project is running locally, users can access the interface to:
+<br />
+Connect to the TON blockchain: Click the “Connect Wallet” button to link your wallet to the platform.<br />
+Deposit Collateral: Choose an asset, enter the deposit amount, and submit the transaction.<br />
+Borrow pUSD: After depositing collateral, choose how much pUSD you wish to borrow and submit the transaction.<br />
+Repay Loan: Track your borrowed pUSD and repay it as needed.
+Check Collateral Ratio: View your collateral-to-loan ratio and avoid liquidation.<br />
+View User Dashboard: View all details about your positions, collateral, borrowed pUSD, and more.<br />
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
